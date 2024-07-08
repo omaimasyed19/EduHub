@@ -76,14 +76,14 @@ body {
   .sidebar .menu ul li a {
     text-decoration: none;
     color:rgb(20, 20, 58) ;
-    font-size: 24px;
+    font-size: 20px;
     word-spacing: 0.6rem;
-    line-height: 4rem;
+    line-height: 3rem;
   }
   
   .sidebar .profile {
     text-align: center;
-    height:30%;
+    height:25%;
     display: flex;
     align-items: flex-end;
     margin-bottom: 20px;
@@ -96,14 +96,14 @@ body {
     margin-bottom: 8px;
   }
   .sidebar .profile img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
     margin-top: 20px;
     margin-left: 40px;
   }
   .profile span{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 600;
     margin-bottom: 10px;
   }
@@ -123,7 +123,7 @@ body {
     align-items: center;
     width: auto;
     height: 8%;;
-    font-size: 21px; 
+    font-size: 22px; 
     background-color:#e6cad7;
   }
   .notifications{
@@ -149,7 +149,7 @@ body {
   }
   .search-bar input {
     width: 27%;
-    height:40px;
+    height:37px;
     border-radius: 12px;
     padding: 10px;
     padding-left: 30px;
@@ -161,10 +161,10 @@ body {
 
   }
   .fa-magnifying-glass{
-    font-size: 17px;
+    font-size: 15px;
     position: relative;
-    left: 2%;
-    margin-top: 12px;
+    left: 2.3%;
+    margin-top: 11px;
   }
   .table-container {
     background-color: #ffe6f0;
@@ -192,7 +192,7 @@ body {
     border: none;
     font-family: "Fira Sans", sans-serif;
     font-style: normal;
-    font-size: 22px;
+    font-size: 18px;
   }
   
   
@@ -221,17 +221,17 @@ body {
 
   .footer-box{
    position: absolute;
-   width: 200px;
+   width: 170px;
    height: 20px;
    background-color: #ffffff;
-   top: 90%;
+   top: 95%;
    text-align: center;
    left:85%;
    }
    .page-no{
     display: flex;
     justify-content: space-evenly;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
    }
@@ -263,15 +263,15 @@ h4:hover{
  
 }
 .table-student a{
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
 }
 .table-student:nth-child(even){
   background-color: #ffe6f0;
 }
 .check{
-  height: 17px;
-  width: 17px;
+  height: 14px;
+  width: 14px;
 }
 .check:checked{
   accent-color:  #ffe6f0;
@@ -302,16 +302,15 @@ h4:hover{
 }
  .button-st{
   display: block;
-  height: 50px;
-  width: 60px;
+  height: 40px;
+  width: 50px;
   float: left;
   margin: 0 5px;
   overflow: hidden;
-  border-radius: 50px;
   cursor: pointer;
   transition: all 0.4s ease-out;
   position: absolute;
-  top:0.3%;
+  bottom: 94%;
   right:1%;
 
 }
@@ -320,8 +319,8 @@ h4:hover{
 }
 .button-st .icon{
   display: inline-block;
-  height: 50px;
-  width: 60px;
+  height: 40px;
+  width: 50px;
   text-align: center;
   border-radius: 50px;
   box-sizing: border-box;
@@ -330,12 +329,12 @@ h4:hover{
 }
 
 .button-st .icon i{
-  font-size: 28px;
+  font-size: 23px;
   line-height: 60px;
   transition: all 0.4s ease-out;
 }
 .button-st span{
-  font-size: 20px;
+  font-size: 16px;
   line-height: 60px;
   margin-left: 2px;
   font-weight: 500;
@@ -345,14 +344,14 @@ h4:hover{
   font-weight: 600;
 }
 .button-st:hover .icon{
-  margin-left: -60px; 
+  margin-left: -40px; 
 }
 .form-container{
-  width: 1000px;
-  height:600px;
+  width: 800px;
+  height:500px;
   position: absolute;
   top:10%;
-  left: 31%;
+  left: 27%;
   background-color:transparentl;
   object-fit: cover;
   backdrop-filter: blur(50px);
@@ -377,18 +376,18 @@ form{
   input[type="date"]{
   padding: 10px;
   border: none;
-  border-bottom: 2px solid #000; 
-  height: 35px;
-  width: 360px;
+  border-bottom: 1px solid #000; 
+  height: 33px;
+  width: 320px;
   background-color: #ffffff;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 10px; 
   padding-bottom: 15px;
 }
 
 button {
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 16px;
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -397,7 +396,7 @@ button {
 
 form label{
   color:rgb(20, 20, 58) ;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   font-family: "Roboto Slab", serif;
   margin-right: 15px;
@@ -414,12 +413,12 @@ form label{
   position: relative;
  right: 43%;
  top:10px;
-  font-size: 40px;
+  font-size: 36px;
   float: left;
 }
 .wel-form h1{
   font-family: "Roboto Slab", serif;
- font-size: 60px;
+ font-size: 54px;
  position: absolute;
  -webkit-text-stroke: 0.3px white;
  color: rgb(20, 20, 58);
@@ -427,11 +426,11 @@ form label{
 }  
 
 .form-icon {
-  font-size: 30px;
+  font-size: 27px;
   letter-spacing: 0.3rem;
   position: absolute;
   top:80%;
-  left:19%;
+  left:18%;
 }
 
 .fa-instagram {
@@ -458,14 +457,14 @@ form label{
   justify-content: space-evenly;
   align-items: center;
   color: lightsteelblue;
-  font-size: 17px;
+  font-size: 14px;
   position: absolute;
   top:91%;
-  left:14%;
+  left:12%;
 }
 .wel-p {
-  width: 50%;
-font-size: 18px;
+  width: 46%;
+font-size: 14px;
 color: #000000;
 font-weight: 600;
 font-family: sans-serif;
@@ -479,7 +478,7 @@ top:20%;
   accent-color: #e6cad7;
 }
 .wel-form span{
-font-size: 18px;
+font-size: 13px;
 color: #000000;
 font-family: "Roboto Slab", serif;
 opacity: 0.4;
