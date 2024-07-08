@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">
+        <i class="fa-solid fa-graduation-cap"></i>
+        Smart</div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">
+            <i class="fa-brands fa-slideshare"></i>
+            Dashboard</a></li>
+          <li><a href="#">
+            <i class="fa-solid fa-calendar-days"></i>
+            My-classes</a></li>
+          <li><a href="#">
+            <i class="fa-solid fa-users"></i>
+            Students</a></li>
+          <li><a href="#">
+            <i class="fa-solid fa-clipboard-list"></i>
+            Schedule</a></li>
+          <li><a href="#">
+            <i class="fa-brands fa-facebook-messenger"></i>
+            Messages</a></li>
+          <li><a href="#">
+            <i class="fa-solid fa-gear"></i>
+            Settings</a></li>
+        </ul>
+      </nav>
+      <div class="profile">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/7401/7401914.png" alt="Profile Picture">
+        <span>Umyma Syed</span>
+
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>             
+      </div>
+    </aside>
+    <main class="content">
+      <header class="header">
+        <h4>Students  <i class="fa-solid fa-chevron-up arrow" style="color: #020409;" ></i>
+            Journal</h4>
+        <div class="notifications">
+          <i class="fa-solid fa-bell" style="color: #df6885;"></i>
+         <p> Notification</p>
+          <div class="not-no">24</div>
+</div>     
+      </header>
+   
+      <div class='box'>   
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass" style="color: #92959b;"></i>
+        <input type="search" class="search"
+        placeholder="Search">
+      </div>
+
+      <div class="table-container">
+       <a href=""><input type="checkbox" class="check">
+        Name
+        <i class="fa-solid fa-caret-down"></i>
+       </a><a href="">Gmail
+        <i class="fa-solid fa-caret-down"></i></a>
+        <div class="nav-dv">
+        <a href=""> Phone</a>
+        <a href="">Date</a>
+        <a href="">Projects</a>
+        <a href="">Role</a>
+      </div>
+       </div>
+       <div class="hidden spinner"></div>
+       <!-- <div class="table-student">
+        <a href="">
+          <input type="checkbox" class="check">
+          John Doe
+        </a>
+        <a href="">programing-19</a>
+         <div class="nav-st">
+         <a href=""> 9/24</a>
+         <a href="">16/16 </a>
+         <a href="">9/9</a>
+         <a href="">17/100</a>
+       </div>
+      </div-->
+      
+    </div>
+  </div>
+  </div>
+
+  <div class="footer-box">
+    <div class="page-no">  
+      <p>Show</p>
+       <select name="" id="">
+        <option value="">1</option>
+      </select> 
+      <i class="fa-solid fa-chevron-up arrow" style="transform: rotate(-450deg);" style="color: #020409;" ></i>
+       <p>1</p>
+       <p>2</p> 
+       <p>3</p>
+       <i class="fa-solid fa-chevron-up arrow" style="color: #020409;" ></i>
+    </div>
+  </div>
+
+  <div class="button-st">
+    <div class='icon'>
+      <i class="fa-solid fa-address-card">
+      </i> </div>
+    <span>Student</span>
+  </div>
+</div>
+
+
+
+<div class="form-container hidden">
+
+
+
+    <div class="wel-form">
+      <i class="fa-solid fa-xmark close"></i>
+      <h1>welcome!</h1>    
+      
+       <div class="wel-p">
+           <p>A user-friendly form to collect student details such as name, email, phone, date, projects, and role.
+         
+          </p>
+        </div>
+        <span> Created by "Umyma Syed" </span>  
+       
+     
+      <div class="form-icon">
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      </div>
+      <div id="trms">
+        <input type="checkbox" name="" id="" class="check">
+        <p>Terms and Conditions</p>
+     </div>
+     </div>
+
+  <form action="#" method="post">
+    <h1>Create Student  <i class="fa-solid fa-graduation-cap"></i></h1>
+      <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Full Name" class="fullnameinput" required>
+      </div>
+      <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Email" class="emailinput" required>
+      </div>
+      <div class="form-group">
+          <input type="tel" id="phone" name="phone" placeholder="Phone Number" class="phoneinput" required>
+      </div>
+      <div class="form-group">
+          <input type="date" id="date" name="date" placeholder="Date" class="dateinput" required>
+      </div>
+      <div class="form-group">
+          <input type="text" id="projects" name="projects" placeholder="Projects" class="projectsinput" required>
+      </div>
+      <div class="form-group">
+          <input type="text" id="role" name="role" placeholder="Role" class="roleinput" required>
+      </div>
+      <div class="form-actions">
+          <button type="submit" class="submit">Submit</button>
+      </div>
+  </form>
+</div>
+
+<!-- div -->
+ 
+
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
