@@ -18,6 +18,7 @@ const searchIcon = document.querySelector('.fa-magnifying-glass')
 const tablerows = document.querySelector('.table-student');
 // create a array
 
+
 submit.addEventListener('click', (e) => {
 
     e.preventDefault();
