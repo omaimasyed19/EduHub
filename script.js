@@ -1,4 +1,5 @@
 'use strict';
+
 const tableContainer = document.querySelector('.table-container');
 const blurBackground = document.querySelector('main');
 const spinner = document.querySelector('.spinner');
