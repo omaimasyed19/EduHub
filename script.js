@@ -45,7 +45,6 @@ submit.addEventListener('click', (e) => {
   projectsInput.value='',
   dateInput.value='',
   roleInput.value =''
-
     if (!fullNameValue || !emailValue || !phoneValue || !dateValue || !projectsValue || !roleValue) {
         alert('Please fill in all fields');
         return;
