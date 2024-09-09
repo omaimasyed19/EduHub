@@ -18,7 +18,6 @@ const searchIcon = document.querySelector('.fa-magnifying-glass')
 const tablerows = document.querySelector('.table-student');
 
 submit.addEventListener('click', (e) => {
-
     e.preventDefault();
     const fullNameValue = fullName.value;
     const emailValue = emailInput.value;
