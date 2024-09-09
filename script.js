@@ -24,8 +24,7 @@ submit.addEventListener('click', (e) => {
     const phoneValue = phoneInput.value;
     const dateValue = dateInput.value;
     const projectsValue = projectsInput.value;
-    const roleValue = roleInput.value;    
-
+    const roleValue = roleInput.value;  
    const html = 
    ` <div class="table-student">
     <a href="">
